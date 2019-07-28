@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+.head-1{
+  font-size: 20px;
+  margin: 50px;
+}
+#my-photo{
+  width:200px;
+}
+#pokemon-photo{
+  width:350px;
+}
+p{
+  margin:40px;
+}
+
+footer {
+  padding: 1% 0;
+  background-color: black;
+  color: white;
+}
+
+
+.topnav {
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #333;
+  padding-bottom: 8px;
+  padding-top:0px;
+  
+}
+
+.topnav a {
+  align-content: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header {
+  padding: 4% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+}
+
+@media screen and (min-width: 550px){
+
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  p{
+    margin:50px;
+  }
+
+.head-1{
+  font-size: 25px;
+  margin: 50px;
+}
+
+  #my-photo{
+    width:300px;
+  }
+  #pokemon-photo{
+    width:400px;
+  }
+}
+
+@media screen and (min-width: 950px){
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  p{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+.head-1{
+  font-size: 25px;
+  margin: 50px;
+}
+
+  #my-photo{
+    width:350px;
+  }
+  #pokemon-photo{
+    width:500px;
+  }
+
+}
